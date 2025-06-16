@@ -1,0 +1,107 @@
+# === Rust ===
+/target/
+**/*.rs.bk
+**/*.rs.bk2
+Cargo.lock # If you're building a library
+
+# Rust tooling
+/.cargo/
+/*.rs.bk
+
+# === Python ===
+__pycache__/
+/*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.manifest
+*.spec
+
+# Virtualenv
+env/
+venv/
+ENV/
+.venv/
+.Python
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyInstaller
+*.spec
+
+# mypy
+.mypy_cache/
+
+# pytest
+.pytest_cache/
+
+# coverage
+htmlcov/
+.coverage
+.tox/
+.cache/
+nosetests.xml
+coverage.xml
+
+# === C ===
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dll
+*.dSYM/
+*.d
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# === Go ===
+/bin/
+/pkg/
+*.exe
+*.test
+*.out
+
+# Go Modules
+go.sum
+vendor/
+
+# === General ===
+.DS_Store
+*.log
+*.tmp
+*.swp
+*.bak
+*.old
+*.orig
+*.~*
+
+# === IDEs and Editors ===
+# VS Code
+.vscode/
+
+# JetBrains (CLion, PyCharm, etc.)
+.idea/
+
+# Sublime
+*.sublime-workspace
+*.sublime-project
+
+# Backup files
+*~
+
+# === Git ===
+*.orig
+*.rej
